@@ -1,0 +1,18 @@
+{% extends 'aplicacion1/layout.html' %}
+{% block content %}
+
+<form action="" method="post">
+
+    {% csrf_token %}
+
+    <div id='form_ingreso'>
+    <br>
+    <label for= "name"  class="form-label">{{form.as_p}}</label>
+    <br>
+    <button id="btn-1" type="submit">Crear</button>
+    </div>
+    
+
+</form>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'aplicacion1/layout.html' %}
+{% block content %}
+    <div id='tabla'>
+        <table>
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Correo</th>              
+            </tr>
+            {% for sop in data %}  
+            <tr>
+              <td>{{sop.nombre}}</td>
+              <td>{{sop.apellido}}</td>
+              <td>{{sop.correo}}</td>              
+            </tr>
+            {% endfor %}
+          </table>      
+        
+    </div>
+   
+{% endblock%} 

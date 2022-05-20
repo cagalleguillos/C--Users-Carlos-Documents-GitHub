@@ -1,0 +1,11 @@
+{% extends 'aplicacion1/layout.html' %}
+{% block content %}
+
+    <form action="/recibirReclamo" method="GET">
+        <input name="email" type="email" placeholder="Email"/>
+        <textarea name="reclamo"></textarea>
+        <button>Enviar</button>
+    </form>
+    {{mensaje}} {{email}}
+
+{% endblock%}

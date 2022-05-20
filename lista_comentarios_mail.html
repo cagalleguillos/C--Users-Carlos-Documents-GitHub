@@ -1,0 +1,27 @@
+{% extends 'aplicacion1/layout.html' %} 
+
+{% block content%}
+
+<div id='tabla'>
+
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Correo</th>
+      <th>Comentario</th>
+    </tr>
+    {% for com in data %}  
+    <tr>
+      <td>{{com.nombre}}</td>
+      <td>{{com.apellido}}</td>
+      <td>{{com.correo}}</td>
+      <td>{{com.comentario}}</td>
+      <td><a href="/eliminar_comentario/{{com.id}}">eliminar</a> -----  <a href="/editar_comentario/{{com.id}}">editar</a> </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+</div>
+
+{% endblock %}

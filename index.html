@@ -1,0 +1,28 @@
+{% extends 'aplicacion1/layout.html' %}
+{% block content %}
+{% load static %}
+    <h1></h1>
+    <main>
+	
+        <aside>
+            <div class="galeria">
+                <div class="linea"></div>
+                <div class="contenedor-imagenes">
+                    <div class="imagen">
+                        <img src="{% static 'aplicacion1/images/notebook.jpeg' %}" alt="notebook.jpeg" >
+                    </div>
+                    <div class="imagen">
+                        <img src="{% static 'aplicacion1/images/desarollo-software.jpeg' %}" alt="desarollo-software.jpeg" >
+                        
+                    </div>
+                    
+                </div>
+          </div>
+        </aside>
+        <section>
+            <h2>Sobre Nosotros</h2>
+	<p>Somos una organización con más de 20 años prestando servicios informáticos a empresas de la V Región y en Santiago. Prestamos servicios en reparación, mantención de equipos computacionales, venta y desarrollo de software. Nos encontramos ubicados en la ciudad de Quilpué. </p>
+
+        </section>
+    </main>
+{% endblock %} 

@@ -1,0 +1,32 @@
+{% extends 'aplicacion1/layout.html' %}
+{% block content %}
+
+<div id='tabla'>
+    <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Correo</th>
+          <th>Tipo de Usuario</th>
+          <th>Dirección</th>
+          <th>Servicio</th>
+        </tr>
+        {% for usu in data  %}
+        <tr>
+            <td>{{usu.nombre}}</td>
+            <td>{{usu.apellido}}</td>
+            <td>{{usu.email}}</td>
+            <td>{{usu.tipousuario}}</td>
+            <td>{{usu.direccion}}</td>
+            <td>
+                {% for s in usu.servicio.all %}
+                    {{s.nombre}}
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+    
+{% endblock%} 
+
