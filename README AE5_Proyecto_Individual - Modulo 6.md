@@ -44,5 +44,5 @@ se justifica para que no interfieran en su ámbito de trabajo.
 
 <a name="Visualizacion"></a>
 ## Visualizacion del sitio web
-![image](![image](https://user-images.githubusercontent.com/86745708/169434644-ef9e5c34-35c7-43dd-8481-3f5e9d0857b8.png))
+![image](https://user-images.githubusercontent.com/86745708/169434644-ef9e5c34-35c7-43dd-8481-3f5e9d0857b8.png)
 
