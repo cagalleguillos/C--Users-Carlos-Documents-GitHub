@@ -1,4 +1,4 @@
-# Sistema web para empresa elaboradora de productos de panadería y pastelería
+Nombre del Proyecto: Sistema web para empresa elaboradora de productos de panadería y pastelería
 Descripción: El proyecto permite automatizar la administración y entrega de los productos de la empresa a través de internet a sus clientes. 
 Esto contempla sus productos de panadería, pastelería y minimarket. 
 Instalación del proyecto: Las carpetas del proyecto que se encuentra en el repositorio de Github https://github.com/cagalleguillos/C--Users-Carlos-Documents-GitHub
