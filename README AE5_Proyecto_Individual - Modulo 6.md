@@ -44,5 +44,5 @@ se justifica para que no interfieran en su ámbito de trabajo.
 
 <a name="Visualizacion"></a>
 ## Visualizacion del sitio web
-
+![image](http://127.0.0.1:8000/)
 
