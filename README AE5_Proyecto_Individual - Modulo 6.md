@@ -6,7 +6,7 @@
 * [Descripción del proyecto](#Descripcion)
 * [Instalacion](#Instalacion)
 * [Como usar](#Uso)
-* [Justificación de permisos diferenciados] (#Justificacion)
+* [Justificación de permisos diferenciados](#Justificacion)
 * [Visualizacion del sitio web](#Visualizacion)
 
 <a name="Descripcion"></a>
